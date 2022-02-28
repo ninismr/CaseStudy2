@@ -28,7 +28,7 @@ Activate the virtual environment for Windows
 Install the required libraries/packages for this project
 
 ```bash
-pip3 install -r requirement.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage 
