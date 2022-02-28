@@ -149,11 +149,11 @@ To call and use all the functions in StudiKasus2.py
 
 ```python
 if __name__ == "__main__":
-   case = StudiKasus2.StudiKasus2("localhost", "3306", "root", os.environ["MySQL_Pswd"]) #connect to database
-   df = case.import_csv("covid.csv") #save the .csv file data in a df value
-   print(case.create_db("covidCase1")) #create a database
-   print(case.create_table("covidCase1", "case1", df)) #create a table in a database
-   print(case.load_data("covidCase1", "case1")) #load the data in a database
+    case = StudiKasus2.StudiKasus2("localhost", "3306", "root", os.environ["MySQL_Pswd"]) #connect to database
+    df = case.import_csv("covid.csv") #save the .csv file data in a df value
+    print(case.create_db("covidCase1")) #create a database
+    print(case.create_table("covidCase1", "case1", df)) #create a table in a database
+    print(case.load_data("covidCase1", "case1")) #load the data in a database
 ```
 
 To view the documentation of the project
