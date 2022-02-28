@@ -1,4 +1,4 @@
-# CaseStudy2
+# StudiKasus2
 This repository contains several files on how to import or load the data contained in the .csv file into the database we created, so we don't need to enter the data in the .csv file one by one into our database.
 
 In this repository there are several files, such as covid.csv (as an example of a .csv file to be imported), StudiKasus2.py (as a .py file containing the StudiKasus2 class with several functions in it), main.py (as a .py file that aims to run or call functions in the StudiKasus2.py file), and there are requirements.txt (which contains all the python libraries needed for this project).
