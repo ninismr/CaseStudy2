@@ -161,3 +161,77 @@ To view the documentation of the project
 ```python
 print(help(StudiKasus2))
 ```
+
+Result of the above code
+
+```
+'$', 14000000, 1565000000), ('Exports', 2021, '16/05/2021', 'Sunday', 'China', 'Meat and edible offal', 'All', '$', 4000000, 1569000000), ('Exports', 2021, '17/05/2021', 'Monday', 'China', 'Meat and edible offal', 'All', '$', 7000000, 1576000000), ('Exports', 2021, '18/05/2021', 'Tuesday', 'China', 'Meat and edible offal', 'All', '$', 6000000, 1582000000), ('Exports', 2021, '19/05/2021', 'Wednesday', 'China', 'Meat and edible offal', 'All', '$', 4000000, 1586000000), ('Exports', 2021, '20/05/2021', 'Thursday', 'China', 'Meat and edible offal', 'All', '$', 15000000, 1601000000), ('Exports', 2021, '21/05/2021', 'Friday', 'China', 'Meat and edible offal', 'All', '$', 13000000, 1614000000), ('Exports', 2021, '22/05/2021', 'Saturday', 'China', 'Meat and edible offal', 'All', '$', 5000000, 1619000000), ('Exports', 2021, '23/05/2021', 'Sunday', 'China', 'Meat and edible offal', 'All', '$', 26000000, 1646000000), ('Exports', 2021, '24/05/2021', 'Monday', 'China', 'Meat and edible offal', 'All', '$', 14000000, 1660000000), ('Exports', 2021, '25/05/2021', 'Tuesday', 'China', 'Meat and edible offal', 'All', '$', 8000000, 1667000000), ('Exports', 2021, '26/05/2021', 'Wednesday', 'China', 'Meat and edible offal', 'All', '$', 7000000, 1675000000), ('Exports', 2021, '27/05/2021', 'Thursday', 'China', 'Meat and edible offal', 'All', '$', 3000000, 1678000000), ('Exports', 2021, '28/05/2021', 'Friday', 'China', 'Meat and edible offal', 'All', '$', 12000000, 1689000000), ('Exports', 2021, '29/05/2021', 'Saturday', 'China', 'Meat and edible offal', 'All', '$', 7000000, 1697000000), ('Exports', 2021, '30/05/2021', 'Sunday', 'China', 'Meat and edible offal', 'All', '$', 4000000, 1701000000), ('Exports', 2021, '31/05/2021', 'Monday', 'China', 'Meat and edible offal', 'All', '$', 18000000, 1719000000), ('Exports', 2021, '01/06/2021', 'Tuesday', 'China', 'Meat and edible offal', 'All', '$', 10000000, 1729000000), ('Exports', 2021, '02/06/2021', 'Wednesday', 'China', 'Meat and edible offal', 'All', '$', 3000000, 1732000000), ('Exports', 2021, '03/06/2021', 'Thursday', 'China', 'Meat and edible offal', 'All', '$', 18000000, 1750000000), ('Exports', 2021, '04/06/2021', 'Friday', 'China', 'Meat and edible offal', 'All', '$', 6000000, 1756000000), ('Exports', 2021, '05/06/2021', 'Saturday', 'China', 'Meat and edible offal', 'All', '$', 15000000, 1770000000), ('Exports', 2021, '06/06/2021', 'Sunday', 'China', 'Meat and edible offal', 'All', '$', 19000000, 1790000000), ('Exports', 2021, '07/06/2021', 'Monday', 'China', 'Meat and edible offal', 'All', '$', 14000000, 1804000000), ('Exports', 2021, '08/06/2021', 'Tuesday', 'China', 'Meat and edible offal', 'All', '$', 8000000, 1812000000), ('Exports', 2021, '09/06/2021', 'Wednesday', 'China', 'Meat and edible offal', 'All', '$', 2000000, 1814000000), ('Exports', 2021, '10/06/2021', 'Thursday', 'China', 'Meat and edible offal', 'All', '$', 12000000, 1826000000), ('Exports', 2021, '11/06/2021', 'Friday', 'China', 'Meat and edible offal', 'All', '$', 5000000, 1831000000), ('Exports', 2021, '12/06/2021', 'Saturday', 'China', 'Meat and edible offal', 'All', '$', 7000000, 1838000000), ('Exports', 2021, '13/06/2021', 'Sunday', 'China', 'Meat and edible offal', 'All', '$', 15000000, 1853000000), ('Exports', 2021, '14/06/2021', 'Monday', 'China', 'Meat and edible offal', 'All', '$', 17000000, 1870000000), ('Exports', 2021, '15/06/2021', 'Tuesday', 'China', 'Meat and edible offal', 'All', '$', 22000000, 1892000000), ('Exports', 2021, '16/06/2021', 'Wednesday', 'China', 'Meat and edible offal', 'All', '$', 7000000, 1899000000), ...
+
+Help on module StudiKasus2:
+
+NAME
+    StudiKasus2
+
+CLASSES
+    builtins.object
+        StudiKasus2
+    
+    class StudiKasus2(builtins.object)
+     |  StudiKasus2(host, port, user, password)
+     |  
+     |  This class is used to import data in the form of a .csv file into the database
+     |  
+     |  Methods defined here:
+     |  
+     |  __init__(self, host, port, user, password)
+     |      This function is used to connect to the database
+     |      
+     |      :param host: this is the database host
+     |      :param port: this is the database port
+     |      :param user: this is the database user
+     |      :param password: this is the database user password
+     |  
+     |  create_db(self, db_name)
+     |      This function is used to create a database
+     |      
+     |      :param db_name: this is the desired database name
+     |      
+     |      :return: a database according to the name entered in the parameter
+     |  
+     |  create_table(self, db_name, table_name, df)
+     |      This function is used to create a table in a database that was previously
+     |      created and load the data from the imported .csv file
+     |      (that already become dataframe) into the database
+     |      
+     |      :param db_name: this is the desired database name
+     |      :param table_name: this is the desired table name
+     |      :param df: this is the dataframe from the imported .csv file
+     |      
+     |      :return: a table in the previously created database and table name
+     |      according to the name entered in the parameter
+     |  
+     |  import_csv(self, path)
+     |      This function is used to import/read data in a .csv file and save it as a dataframe
+     |      
+     |      :param path: this is the path of the .csv file or if it is
+     |      in the same folder we can just enter the .csv filename
+     |      
+     |      :return: a data from the .csv file in a dataframe format
+     |  
+     |  load_data(self, db_name, table_name)
+     |      This function is used to load existing data in a previously created database
+     |      
+     |      :param db_name: this is the name of the database whose data we want to load
+     |      :param table_name: this is the name of the table in the database whose data we want to load
+     |      
+     |      :return: a data from the database/table whose data we want to load
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  __dict__
+     |      dictionary for instance variables (if defined)
+     |  
+     |  __weakref__
+     |      list of weak references to the object (if defined)
+```
